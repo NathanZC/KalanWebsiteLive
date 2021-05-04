@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Martel:wght@900&family=Source+Sans+Pro&display=swap');
+
+
+
+
+p {
+font-family: 'Fjalla One', sans-serif;
+font-size: 100px;
+position: absolute;
+letter-spacing: 30px;
+margin-top: 0px;
+
+
+}
+
+
+
+
+
+
+.header {
+	height: 150px;
+	background-size: 100% 500%;
+	background-color: black;
+	color:white;
+	border:5px solid black ;
+	display: flex;
+	background: #36c;
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	background-color:black;
+}
+
+.middle {
+	justify-content: center;
+}
+.push {
+	display: flex;
+	 margin-left: auto;
+	 margin-top: 10px;
+}
+
+.headerLink {
+	color:white;
+	text-decoration: none;
+}
+
+
+.headerLink:hover {
+	color:gray;
+	text-decoration: none;
+
+
+}
+
+
+.grow2 { 
+transition: all .2s ease-in-out; 
+}
+
+.grow2:hover { 
+transform: scale(1.2); 
+
+}
+
+
+img {
+height: auto;
+width: 80px;
+}
+li{
+	list-style: none;
+    padding: 20px;
+}
+.pull {
+	color: white;
+	display: flex;
+	 margin-right: auto;
+	 margin-top: 20px;
+	 font-size: 40px;
+	 padding-left: 5px;
+}
+
+@media only screen and (max-width: 1260px){
+    .header {
+    	height: 100px;
+        font-size: 0.5rem;
+        padding: 0;
+        letter-spacing: 10px;
+
+    }
+
+
+	img {
+	height: auto;
+	width: 40px;
+	}	
+	p {
+		font-size: 50px;
+		padding-top: 15px;
+		letter-spacing: 5px;
+		padding-right: 15px;
+	}
+	li{
+	list-style: none;
+    padding: 6px;
+    justify-content: center;
+    padding-top: 10px;
+	}
+	.push {
+	 display: flex;
+	 margin-left: auto;
+	 margin-top: 20px;
+	}
+	.pull {
+	 display: flex;
+	 margin-right: auto;
+	 margin-top: 20px;
+	 margin-left: 10px;
+	 padding-left: 0px;
+	 font-size: 20px;
+	 letter-spacing: 0px;
+
+
+	}
+
+
+}
+
+@media only screen and (max-width: 600px){
+
+	.grow2:hover { 
+	transform: scale(1.1); 
+
+	}
+
+	img {
+	height: auto;
+	width: 30px;
+	padding-top: 5px;
+	}	
+	p {
+		font-size: 35px;
+		padding-top: 25px;
+		letter-spacing: 3px;
+		padding-right: 15px;
+	}
+	li{
+	list-style: none;
+    padding: 2.5px;
+    justify-content: center;
+    padding-top: 13px;
+	}
+	.push {
+	 display: flex;
+	 margin-left: auto;
+	 margin-top: 20px;
+	}
+	.pull {
+	 display: flex;
+	 margin-right: auto;
+	 margin-top: 30px;
+	 margin-left: 0px;
+	 padding-left: 0px;
+	 font-size: 15px;
+	 letter-spacing: 0px;
+
+
+	}
+}
+
