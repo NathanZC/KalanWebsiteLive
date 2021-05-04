@@ -18,7 +18,7 @@ class Header extends React.Component {
 
       </ul>
       <ul className='push'>
-      <li className='grow2'><a href='https://www.instagram.com/kalan.zc/' target="_blank"><img src={ig} /></a></li>
+      <li className='grow2'><a href='https://www.instagram.com/kalan_zc/' target="_blank"><img src={ig} /></a></li>
       <li className='grow2'><a href='https://www.youtube.com/user/5Kaligula' target="_blank"><img src={yt} height={"110px"} /></a></li>
       <li className='grow2'><a href='https://open.spotify.com/artist/7lqqUECLiWd1mDiG9cvQte' target="_blank"><img src={spotify} /></a></li>
       <li className='grow2'><a href='https://music.apple.com/ca/artist/kalan/1482680832' target="_blank"><img src={apple} /></a></li>
