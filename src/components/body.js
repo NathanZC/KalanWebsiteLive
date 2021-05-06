@@ -1,8 +1,9 @@
 import React from "react";
-import headshot from "./banner.jpg";
+import headshot from "./channels4_banner.jpg";
 import "./body.css";
 import Music from "./music.js"
 import About from "./about.js"
+import Songs from "./songs.js"
 class Body extends React.Component {
   render() {
     return (
@@ -17,6 +18,7 @@ class Body extends React.Component {
         </div>
         <About />
         <Music />
+        <Songs />
       </div>
     );
   }

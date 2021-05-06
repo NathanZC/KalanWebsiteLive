@@ -23,10 +23,11 @@
 }
 .MusicSection {
   border: 2px solid black;
-  
-  height: 500px;
+  justify-content: center;
+  height: 550px;
   color: black;
-  background-image: url("r6s.jpg");
+  background-image: url("r6s.jpg");  background-repeat: no-repeat;
+   background-size: cover;
 }
 .sectionbody {
   height: auto;
@@ -37,7 +38,7 @@
   padding: 20px;
   padding-top: 60px;
   font-size: 20px;
-  
+  justify-content: center;
 }
 .video {
   width: 100%;
@@ -47,22 +48,125 @@
 .AboutSection {
   border: 2px solid black;
   background-image: url("black_back.jpg");
-  height: 1000px;
+  height: 1300px;
   background-repeat: no-repeat;
    background-size: cover;
    color: white;
-   line-height: 25px;
+   line-height: 30px;
+   justify-content: center;
+
+}
+.AboutSection2 {
+  border: 2px solid black;
+  background-image: url("black_back.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   line-height: 30px;
    justify-content: center;
 
 }
 .sectionbodyabout {
   height: auto;
-  display: flex;
+
   width: 100%;
   
 
   padding: 300px;
   padding-top: 60px;
-  font-size: 20px;
+  font-size: 27px;
   
+  
+}
+@media only screen and (max-width: 2350px) {
+  .sectionbodyabout {
+    height: auto;
+    display: flex;
+    width: 100%;
+    
+  
+    padding: 300px;
+    padding-top: 60px;
+    font-size: 15px;
+    
+  }
+
+}
+@media only screen and (max-width: 1552px) {
+  .sectionbodyabout {
+    height: auto;
+    display: flex;
+    width: 100%;
+    
+  
+    padding: 300px;
+    padding-top: 60px;
+    font-size: 15px;
+    
+  }
+}
+@media only screen and (max-width: 1467px) {
+  .sectionbodyabout {
+    height: auto;
+    display: flex;
+    width: 100%;
+    
+  
+    padding: 100px;
+    padding-top: 60px;
+    font-size: 13px;
+    
+  }
+  .MusicSection {
+    border: 2px solid black;
+    justify-content: center;
+    height: 1250px;
+    color: black;
+    background-image: url("r6s.jpg");
+  }
+  .video {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .sectionbody {
+    height: auto;
+
+    width: 100%;
+    display:inline;
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+    font-size: 20px;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 951px) {
+  .sectionbodyabout {
+    height: auto;
+    display: flex;
+    width: 100%;
+    
+  
+    padding: 50px;
+    padding-top: 60px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 669px) {
+  .sectionbodyabout {
+    height: auto;
+    display: flex;
+    width: 100%;
+    
+  
+    padding: 50px;
+    padding-top: 60px;
+    font-size: 12px;
+    line-height: 14px;
+    
+  }
 }

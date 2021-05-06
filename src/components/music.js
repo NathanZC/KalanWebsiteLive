@@ -10,7 +10,7 @@ class Music extends React.Component {
     return (
       <div className="MusicSection">
         <div className="sectionHeader">
-          <h1>MUSIC</h1>
+          <h1>MUSIC VIDEOS</h1>
         </div>
         <div className="sectionbody">
         <ReactPlayer className="video" url='https://www.youtube.com/watch?v=fwuBmqW9xAE' controls="true"/> 
