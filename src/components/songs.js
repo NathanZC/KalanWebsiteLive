@@ -1,9 +1,10 @@
 import React from "react";
 import SpotifyPlayer from 'react-spotify-player';
-
+const view = 'list'; // or 'coverart'
+const theme = 'black'; // or 'white'
 const size = {
-    width: '100%',
-    height: 80,
+    width: '50%',
+    height:200,
   };
 class Music extends React.Component {
   render() {
@@ -12,8 +13,8 @@ class Music extends React.Component {
         <div className="sectionHeader">
           <h1>Songs</h1>
         </div>
-        <div className="sectionbody">
-
+        <div className="sectionbody5">
+        <iframe src="https://open.spotify.com/embed/artist/7lqqUECLiWd1mDiG9cvQte" width="60%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
       </div>
     );

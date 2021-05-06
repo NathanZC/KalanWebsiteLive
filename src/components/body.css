@@ -5,10 +5,11 @@
   border: 5px solid black;
 }
 .headshot {
-  width: 100%;
-  background-color: rgb(140,34,48);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: rgb(187, 96, 96);
+  padding-top: 2px;
+
+  border-top:2px solid rgb(187, 96, 96);
+  border-bottom:4px solid rgb(187, 96, 96);
 }
 .fullscreenimage {
   width: 100%;
@@ -28,6 +29,7 @@
   color: black;
   background-image: url("r6s.jpg");  background-repeat: no-repeat;
    background-size: cover;
+   
 }
 .sectionbody {
   height: auto;
@@ -37,7 +39,7 @@
   text-align: center;
   padding: 20px;
   padding-top: 60px;
-  font-size: 20px;
+  font-size: 25px;
   justify-content: center;
 }
 .video {
@@ -48,13 +50,24 @@
 .AboutSection {
   border: 2px solid black;
   background-image: url("black_back.jpg");
-  height: 1300px;
+  height: 900px;
   background-repeat: no-repeat;
    background-size: cover;
    color: white;
    line-height: 30px;
    justify-content: center;
 
+}
+.sectionbody5 {
+  height: auto;
+  display: flex;
+  width: 100%;
+  
+  text-align: center;
+  padding: 20px;
+  padding-top: 80px;
+  font-size: 20px;
+  justify-content: center;
 }
 .AboutSection2 {
   border: 2px solid black;
@@ -88,7 +101,7 @@
   
     padding: 300px;
     padding-top: 60px;
-    font-size: 15px;
+    font-size: 20px;
     
   }
 
