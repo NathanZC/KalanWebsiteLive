@@ -1,10 +1,6 @@
 import React from "react";
-import SpotifyPlayer from 'react-spotify-player';
 import ReactPlayer from 'react-player'
-const size = {
-    width: '100%',
-    height: 80,
-  };
+
 class Music extends React.Component {
   render() {
     return (
