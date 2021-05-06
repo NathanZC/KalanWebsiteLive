@@ -14,7 +14,7 @@
   width: 100%;
 }
 .sectionHeader {
-  color: white;
+  
   height: 100px;
   text-align: center;
   justify-content: center;
@@ -23,10 +23,46 @@
 }
 .MusicSection {
   border: 2px solid black;
-  background-image: url("black_back.jpg");
+  
   height: 500px;
+  color: black;
+  background-image: url("r6s.jpg");
 }
 .sectionbody {
-  height: 100px;
+  height: auto;
+  display: flex;
+  width: 100%;
+  
+  text-align: center;
+  padding: 20px;
+  padding-top: 60px;
+  font-size: 20px;
+  
+}
+.video {
+  width: 100%;
+  padding: 30px;
+
+}
+.AboutSection {
+  border: 2px solid black;
+  background-image: url("black_back.jpg");
+  height: 1000px;
+  background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   line-height: 25px;
+   justify-content: center;
+
+}
+.sectionbodyabout {
+  height: auto;
+  display: flex;
+  width: 100%;
+  
+
+  padding: 300px;
+  padding-top: 60px;
+  font-size: 20px;
   
 }

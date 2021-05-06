@@ -2,6 +2,7 @@ import React from "react";
 import headshot from "./banner.jpg";
 import "./body.css";
 import Music from "./music.js"
+import About from "./about.js"
 class Body extends React.Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class Body extends React.Component {
             alt="instagram logo"
           />
         </div>
+        <About />
         <Music />
       </div>
     );
