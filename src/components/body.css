@@ -1,3 +1,20 @@
+.headshot {
+  background:url(KalanOutside11067.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+    border: 1px solid white;
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  height: 810px;
+}
 body {
   min-width: 700px;
 }
@@ -7,13 +24,7 @@ body {
   width: 100%;
   border: 5px solid black;
 }
-.headshot {
-  background-color: rgb(187, 96, 96);
-  padding-top: 2px;
 
-  border-top:2px solid rgb(187, 96, 96);
-  border-bottom:4px solid rgb(187, 96, 96);
-}
 .fullscreenimage {
   width: 100%;
 }
