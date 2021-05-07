@@ -4,8 +4,8 @@ class About extends React.Component {
   render() {
     return (
       <div className="AboutSection">
-        <div className="sectionHeader">
-          <h1>ABOUT</h1>
+        <div id="About"className="sectionHeader">
+          <h1>BIO</h1>
         </div>
         <div className="sectionbodyabout">
           It takes above average resilience and resolve to overcome the

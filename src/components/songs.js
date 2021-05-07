@@ -4,7 +4,7 @@ class Music extends React.Component {
   render() {
     return (
       <div className="AboutSection2">
-        <div className="sectionHeader">
+        <div id="Music" className="sectionHeader">
           <h1>Songs</h1>
         </div>
         <div className="sectionbody5">

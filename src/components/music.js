@@ -5,12 +5,12 @@ class Music extends React.Component {
   render() {
     return (
       <div className="MusicSection">
-        <div className="sectionHeader">
+        <div id="Videos" className="sectionHeader">
           <h1>MUSIC VIDEOS</h1>
         </div>
         <div className="sectionbody">
           <ReactPlayer
-            className="video"
+            className="video"F
             url="https://www.youtube.com/watch?v=fwuBmqW9xAE"
             controls="true"
           />

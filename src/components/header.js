@@ -12,17 +12,17 @@ class Header extends React.Component {
         <ul className="pull">
           <li className="grow2">
             <a href="#About" className="headerLink">
-              ABOUT
+              BIO
             </a>
           </li>
           <li className="grow2">
             <a href="#Music" className="headerLink">
-              MUSIC
+              LISTEN
             </a>
           </li>
           <li className="grow2">
-            <a href="#Dance" className="headerLink">
-              DANCE
+            <a href="#Videos" className="headerLink">
+              WATCH
             </a>
           </li>
         </ul>
