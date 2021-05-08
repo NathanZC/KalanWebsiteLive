@@ -13,7 +13,7 @@
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
-  height: 810px;
+  height: 1010px;
 }
 body {
   min-width: 700px;
@@ -96,12 +96,10 @@ body {
 
 }
 .sectionbodyabout {
-  height: auto;
 
-  width: 100%;
   
-
-  padding: 300px;
+  height: 500px;
+  padding: 200px;
   padding-top: 60px;
   font-size: 27px;
   
@@ -109,21 +107,21 @@ body {
 }
 @media only screen and (max-width: 2350px) {
   .sectionbodyabout {
-    height: auto;
+    height: 500px;
     display: flex;
     width: 100%;
     
   
-    padding: 300px;
+    padding: 200px;
     padding-top: 60px;
     font-size: 20px;
     
   }
 
 }
-@media only screen and (max-width: 1552px) {
+@media only screen and (max-width: 1580px) {
   .sectionbodyabout {
-    height: auto;
+
     display: flex;
     width: 100%;
     
@@ -136,7 +134,7 @@ body {
 }
 @media only screen and (max-width: 1467px) {
   .sectionbodyabout {
-    height: auto;
+
     display: flex;
     width: 100%;
     
@@ -173,7 +171,7 @@ body {
 }
 @media only screen and (max-width: 951px) {
   .sectionbodyabout {
-    height: auto;
+
     display: flex;
     width: 100%;
     
@@ -186,7 +184,7 @@ body {
 }
 @media only screen and (max-width: 669px) {
   .sectionbodyabout {
-    height: auto;
+
     display: flex;
     width: 100%;
     

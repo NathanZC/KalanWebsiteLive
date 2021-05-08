@@ -1,5 +1,4 @@
 import React from "react";
-import headshot from "./KalanOutside11067.jpg";
 import "./body.css";
 import Music from "./music.js"
 import About from "./about.js"
@@ -13,7 +12,6 @@ class Body extends React.Component {
         <Music />
         <Songs />
         <About />
-
       </div>
     );
   }

@@ -6,7 +6,7 @@ p {
   position: absolute;
   letter-spacing: 5px;
   margin-top: 0px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .header {
@@ -18,7 +18,7 @@ p {
 
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-  background-color: rgba(0, 0,0 , 0.4);
+  background-color: rgba(82, 76, 76, 0.6);
   
 }
 
@@ -28,7 +28,7 @@ p {
 .push {
   display: flex;
   margin-left: auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .headerLink {
@@ -51,7 +51,7 @@ p {
 
 img {
   height: auto;
-  width: 80px;
+  width: 60px;
 }
 li {
   list-style: none;
